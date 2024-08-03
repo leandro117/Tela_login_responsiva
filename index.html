@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <div id="img"></div>
+        <div id="content">
+            <h1>Login</h1>
+            <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            <form action="cadastro.php" method="get">
+                <div class="divBtn">
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                    <input type="email" name="email" id="iEmail" class="confInput" placeholder="Seu e-mail" required >
+                </div>
+                <div class="divBtn">
+                    <span class="material-symbols-outlined">
+                        vpn_key
+                    </span>
+                    <input type="password" name="senha" id="iSenha" class="confInput" placeholder="Sua senha" required minlength="4" maxlength="8">
+                </div>
+                <input type="submit" value="Entrar" id="btnEntrar">
+                <a href="cadastro.php"><button id="btnTrocarSenha" type="button">Esqueci a senha <span id="mail" class="material-symbols-outlined">mail</span> </button></a>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
