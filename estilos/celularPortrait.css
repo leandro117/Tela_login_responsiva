@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*Versão mobile*/
+/*Versão mobile portrait*/
 
 *{
     margin: 0px;
@@ -14,12 +14,12 @@ body{
 
 main{
     background-color: white;
-    width: 50%;
-    height: 650px;
+    width: 60%;
+    height: 95vh;
     top: 50%;
     left: 50%;
     position: relative;
-    transform: translate(-50%, 8%);
+    transform: translate(-50%, 2%);
     border-radius: 20px;
 }
 
@@ -35,7 +35,7 @@ p{
 #img{
     background-color: black;
     width: 100%;
-    height: 250px;
+    height: 30%;
     background-image: url("img/metal.jpg");
     background-size: cover;
     background-position: right bottom;
@@ -45,8 +45,8 @@ p{
 input, .divBtn, button{
     display: block;
     margin: auto;
-    width: 90%;
-    height: 40px;
+    width: 55vw;
+    height: 5vh;
     margin-bottom: 5px;
     border-radius: 10px;
     font-size: 20px;
@@ -58,14 +58,14 @@ input, .divBtn, button{
 
 .confInput{
     background-color: #19e7e4;
-    width: 80%;
-    height: 30px;
+    width: 45vw;
+    height: 4vh;
 }
 
 .material-symbols-outlined{
     padding-bottom: 10px;
     color: white;
-    font-size: 40px;
+    font-size: 1em;
     padding: 0px;
 }
 
@@ -84,9 +84,11 @@ input, .divBtn, button{
 #content h1{
     text-align: center;
     margin-top: 10px;
+    font-size: 2rem;
 }
 
 #content p{
+    font-size: 1rem;
     text-align: justify;
     padding: 10px;
 }
