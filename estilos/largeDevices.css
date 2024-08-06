@@ -29,5 +29,15 @@
         position: relative;
         transform: translate(-50%, -50%);
     }
+
+    input, .divBtn, button{
+        width: 90%;
+        height: 5%;
+    }
+
+    .confInput{
+        width: 85%;
+        height: 4%;
+    }
     
 } 
